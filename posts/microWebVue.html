@@ -6,9 +6,9 @@
     <title>前端微服务-vue |  </title>
     <meta name="description" content="vue2的MF改造方案">
     <link rel="preload stylesheet" href="/assets/style.b678ab3a.css" as="style">
-    <link rel="modulepreload" href="/assets/chunks/VPAlgoliaSearchBox.545d10b0.js">
-    <link rel="modulepreload" href="/assets/app.46aa55e1.js">
-    <link rel="modulepreload" href="/assets/posts_microWebVue.md.5f543c20.lean.js">
+    <link rel="modulepreload" href="/assets/chunks/VPAlgoliaSearchBox.6101e6c7.js">
+    <link rel="modulepreload" href="/assets/app.5cea49fa.js">
+    <link rel="modulepreload" href="/assets/posts_microWebVue.md.f72466eb.lean.js">
     
     <meta name="theme-color" content="#3c8772">
   <script id="check-dark-light">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
@@ -112,8 +112,8 @@
 <span class="line"><span style="color:#F07178;">        </span><span style="color:#89DDFF;">},</span></span>
 <span class="line"><span style="color:#A6ACCD;">      </span><span style="color:#89DDFF;">};</span></span>
 <span class="line"></span></code></pre></div><h2 id="nginx配置" tabindex="-1">nginx配置 <a class="header-anchor" href="#nginx配置" aria-hidden="true">#</a></h2><ul><li>根据需要独立ip通过文件路径代理</li><li>不同ip通过proxy_pass代理</li><li>不同服务器通过proxy_pass</li></ul><h2 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-hidden="true">#</a></h2><h3 id="优点" tabindex="-1">优点 <a class="header-anchor" href="#优点" aria-hidden="true">#</a></h3><ul><li>组件服务可以安装到静态资源服务器，与文档，字体，icon库统一配置。</li><li>每个模块都是一个服务，不同模块业务解耦，独立安装部署，拆解灵活度增高，新需求按需引入即可。</li><li>module-federation按需加载与合理配置资源服务，中大型项目首屏加载启动速度10秒内。</li></ul><h3 id="缺点" tabindex="-1">缺点 <a class="header-anchor" href="#缺点" aria-hidden="true">#</a></h3><ul><li>需自行管理配置样式隔离</li><li>需要部署服务增多，项目拆分颗粒度要审慎把握</li><li>单个模块不能split,需保证runtimejs的完整性</li></ul></div></div></main><!--[--><!--]--><footer class="VPDocFooter" data-v-ae7d01fc data-v-2813752b><!----><!----></footer><!--[--><!--]--></div></div></div></div></div><footer class="VPFooter has-sidebar" data-v-abcc630f data-v-d24360a6><div class="container" data-v-d24360a6><!----><p class="copyright" data-v-d24360a6>Copyright © 2023-present wangguixing</p></div></footer><!--[--><!--]--></div></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"6dfad422\",\"posts_microwebvue.md\":\"5f543c20\"}")</script>
-    <script type="module" async src="/assets/app.46aa55e1.js"></script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"a1503aaa\",\"posts_microwebvue.md\":\"f72466eb\"}")</script>
+    <script type="module" async src="/assets/app.5cea49fa.js"></script>
     
   </body>
 </html>
